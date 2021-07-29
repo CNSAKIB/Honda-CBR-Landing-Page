@@ -18,9 +18,60 @@
 
 <body>
     <header class="banner-bg">
+        <!-- Navbar Starts -->
+        <section class="container mb-4 pt-4">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler ms-auto btn btn-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active px-4 text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link px-4 text-white" href="#">Products</a>
+                        <a class="nav-link px-4 text-white" href="#">About us</a>
+                        <a class="nav-link px-4 text-white" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+
+                        <!-- login Button -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary ms-5 px-4" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            <span class="text-white">Login</span>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-warning" id="staticBackdropLabel">Alert!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        If you Already have an account, you can continue the Login. If you don't have
+                                        one then click on the Sign in button.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign
+                                            in</button>
+                                        <button type="button" class="btn btn-primary">Continue</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </section>
+        <!-- Navbar Ends  -->
+
         <section class="container d-flex justify-content-between align-items-center flex-column flex-md-row mb-5">
             <!-- Banner Starts -->
-            <div class="text-white text-left pt-5">
+            <div class="text-white text-left pt-3">
                 <p>Computer-controlled digital transistorized with electronic advance</p>
                 <h1>Honda CBR 300R</h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint.
@@ -92,7 +143,7 @@
         <!-- Featured Bike Section Ends  -->
         <!-- Happy Client Section  -->
         <section class="container my-5">
-            <div class="text-center">
+            <div class="text-center pt-5">
                 <h1>Happy <span class="text-danger">Client Says</span></h1>
             </div>
             <div>
@@ -168,13 +219,111 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
             </div>
         </section>
         <!-- Happy Client Section Ends -->
+        <!-- Frequently Asked Questions  -->
+
+        <section class="container">
+            <h1 class="text-center mb-4">Frequently Asked <span class="text-danger">Question</span></h1>
+            <div class="px-4 py-5">
+                <div class="row gx-5">
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3 border"><img class="mw-100" src="images/faq.png" alt=""></div>
+                    </div>
+                    <div class="col col-lg-6 pt-4">
+                        <div class="p-3 border">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <strong>What are the most important things I should
+                                                know about riding a bike?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                            your bike. This will help you be a more focused and legally compliant bike
+                                            rider.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>How can I tell if my helmet is old and I need a
+                                                new one?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            How long does a motorcycle helmet last? The general rule of thumb is to
+                                            consider replacing your helmet every 3-5 years barring that the helmet has
+                                            not experienced any accidents or significant impact.
+
+                                            Most manufacturers and safety organizations recommend this especially if you
+                                            wear your helmet consistently. However, there are a few other signs you
+                                            should be paying attention to in order to help you determine when it is time
+                                            to get yourself a new motorcycle helmet.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>My bike has been in storage is it safe to ride?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Take your bike to your local bike shop for a quick safety check. They can
+                                            determine if it is safe to ride or needs any additional maintenance. Ask
+                                            them for an estimate first before the work is done.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <strong>What rules should I follow when riding my bike?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Drivers must always check for cyclists before turning right.
+                                            Never pass a cyclist prior to making a right turn. Instead, merge before
+                                            turning.
+                                            You may only enter a bike lane to make a right turn within 200 ft of an
+                                            intersection.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions Ends -->
+
     </main>
     <footer>
 
