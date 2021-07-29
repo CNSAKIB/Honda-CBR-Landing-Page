@@ -6,11 +6,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.h1-bold{
     font-weight: 600;
 }
-
+.paragraph-weight{
+    font-weight: 300;
+}
+.button-bg{
+    background-color: #E76F51;
+}
 /* Banner  */
 .banner-bg{
     background-color: #264653;
+}
+/* Happy-Clients  */
+.star-icon-design{
+    color: #E77C40;
 }
